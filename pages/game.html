@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/game.css">
+
+  <script defer src="../js/game.js"></script>
+
+  <title>Jogo da Memória Autiva (SNC-UNIFESP 2025) </title>
+
+  <link rel="icon" href="../images/ícone.png">
+
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <span class="player"></span>
+      <span>Tempo: <span class="timer">00</span></span>
+    </header>
+
+    <div class="grid"></div>
+  </main>
+
+        <!-- pt-Br: Janela/Caixa de diálogo (Modal Box) -->
+
+        <div id="JanelaCampeao">
+          
+          <!-- pt-Br: A janela  em si-->
+          <div id="Janela">
+
+            <!-- pt-Br: Cabecalho da janela -->
+            <div id="Cabecalho">
+
+              <!-- pt-Br: Título da mensagem -->
+              <span id="TituloJanela">Título da mensagem</span>
+
+              <!-- pt-Br: Botão de fechar -->
+              <span id="BtnFechar" onclick="FecharMsg()">❌</span>
+            </div>
+
+            <!-- pt-Br: Corpo da janela (Mensagem) -->
+            <div id="TextoMsg">
+                  Mensagem a ser exibida na janela
+            </div>
+
+          </div>
+        </div>  
+
+</body>
+
+</html>
